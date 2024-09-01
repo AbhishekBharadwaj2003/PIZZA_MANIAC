@@ -1,0 +1,95 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: 'caveat' cursive;
+    font-family: 'Dancing Script' cursive;
+    font-family: 'Montserrat' sans-serif;
+    font-family: 'Poppins' sans-serif;
+    font-family: 'Roboto' sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+.nav{
+    height: 130px;
+    display: flex;
+    align-items: center;
+}
+.nav a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-right: 20px;
+
+}
+.nav .pizza{
+    font-size: 40px;
+    font-weight: 600;
+    align-items: baseline;
+    background: linear-gradient(to right, #eb444b 0%, #f9ca24 100%);
+    -webkit-background-clip: text ;
+    color: transparent;
+    margin-right: 400px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+.order{
+    height: 45px ;
+    width: 150px;
+    background: linear-gradient(to right, #eb444b 0%, #f9ca24 100%) ;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    border-radius: 30px;
+    margin-left: 300px;
+}
+.text{
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.text h2{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+spam{
+    background: linear-gradient(to right, #eb444b 0%, #f9ca24 100%) ;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.text p{
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 600;
+    text-align: left;
+}
+.btn{
+    height: 50px;
+    width: 150px;
+    background: linear-gradient(to right, #eb444b 0%, #f9ca24 100%) ;
+    border: none;
+    color: rgb(11, 11, 11);
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.main {
+    display: flex;
+}
+.footer{
+    margin-top: 200px;
+    background-color: transparent;
+    margin-bottom: 200px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    color: black;
+}
+
+
